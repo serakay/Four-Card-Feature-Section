@@ -48,7 +48,7 @@ img {
 }
 
 .all-cards {
-  margin: 70px auto;
+  margin: 40px auto;
   width: 1190px;
   display: grid;
   grid-template-columns: 370px 370px 370px;
@@ -129,7 +129,7 @@ img {
   }
 
   .all-cards {
-    margin: 70px auto;
+    margin: 40px auto;
     width: 300px;
     display: block;
   }
