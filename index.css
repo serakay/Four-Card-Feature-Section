@@ -1,0 +1,163 @@
+body {
+  background-color: hsl(0, 0%, 98%);
+  font-family: 'Poppins', sans-serif;
+  color: hsl(229, 6%, 66%);
+  font-weight: 400;
+}
+
+h1 {
+  font-weight: 200;
+  font-size: 2.2rem;
+  color: hsl(234, 12%, 34%);
+  line-height: 3.3rem;
+}
+
+span {
+  font-weight: 600;
+}
+
+p {
+  font-size: 15px;
+  margin: auto;
+  line-height: 25px;
+}
+
+h3 {
+  font-weight: 600;
+  color: hsl(234, 12%, 34%);
+  font-size: 1.4rem;
+  margin: 0;
+  margin-bottom: 10px;
+}
+
+img {
+  margin-top: 25px;
+  float: right;
+  width: 80px;
+}
+
+.container {
+  width: 1440px;
+  margin: auto;
+}
+
+.intro {
+  width: 500px;
+  margin: 100px auto;
+  text-align: center;
+}
+
+.all-cards {
+  margin: 70px auto;
+  width: 1190px;
+  display: grid;
+  grid-template-columns: 370px 370px 370px;
+  grid-column-gap: 40px;
+}
+
+.all-cards p {
+  font-size: 14px;
+}
+
+.all-cards div {
+  width: 300px;
+  align-self: center;
+  background-color: white;
+}
+
+.supervisor, .builder-only, .karma-only, .calculator {
+  box-shadow: 5px 5px 30px #e6e6e6;
+  border-radius: 10px;
+  height: 200px;
+  padding: 35px;
+  border-top: 6px solid;
+}
+
+.supervisor {
+  border-color: hsl(180, 62%, 55%);
+}
+
+.builder-only {
+  border-color: hsl(0, 78%, 62%);
+}
+
+.karma-only {
+  border-color: hsl(34, 97%, 64%);
+  margin-top: 35px;
+}
+
+.calculator {
+  border-color: hsl(212, 86%, 64%);
+}
+
+@media screen and (max-width: 1200px) {
+
+  h1 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+   p {
+    font-size: 15px;
+    margin: auto;
+    line-height: 25px;
+  }
+
+  h3 {
+    font-weight: 600;
+    color: hsl(234, 12%, 34%);
+    font-size: 1.2rem;
+    margin: 0;
+    margin-bottom: 10px;
+  }
+
+  img {
+    margin-top: 25px;
+    float: right;
+    width: 60px;
+  }
+
+  .container {
+    width: 320px;
+    margin: auto;
+  }
+
+  .intro {
+    width: 320px;
+    margin: 50px auto;
+    text-align: center;
+  }
+
+  .all-cards {
+    margin: 70px auto;
+    width: 300px;
+    display: block;
+  }
+
+  .all-cards div {
+    width: 250px;
+  }
+
+  .all-cards p {
+    font-size: 13px;
+  }
+
+  .supervisor, .builder-only, .karma-only, .calculator {
+    padding: 25px;
+    height: 180px;
+    margin-bottom: 30px;
+  }
+
+
+}
+
+
+/* footer */
+
+.attribution {
+  font-size: 11px; text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
